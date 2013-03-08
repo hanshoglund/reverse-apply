@@ -1,0 +1,24 @@
+
+name:               reverse-apply
+version:            1.0
+cabal-version:      >= 1.2
+author:             Hans Hoglund
+synopsis:           Standard version of the reverse apply operator.
+category:           Music
+tested-with:        GHC
+default-language:   Haskell98
+build-type:         Simple
+
+description: 
+    Provides a standard version of the reverse apply operator.
+
+    Its definition is simply:
+        (&) = flip ($)
+    
+
+library                    
+    build-depends: 
+        base
+    hs-source-dirs: src
+    exposed-modules:
+        Control.Apply.Reverse
