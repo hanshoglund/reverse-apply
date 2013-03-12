@@ -1,13 +1,13 @@
 
 name:               reverse-apply
-version:            1.0.1
+version:            1.0.3
 cabal-version:      >= 1.2
 author:             Hans Hoglund
 maintainer:         Hans Hoglund
 license:            BSD3
 license-file:       COPYING
 synopsis:           Standard version of the reverse apply operator.
-category:           Music
+category:           Combinators, Composition
 tested-with:        GHC
 build-type:         Simple
 
