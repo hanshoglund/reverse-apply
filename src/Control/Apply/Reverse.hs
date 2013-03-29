@@ -16,8 +16,8 @@
 module Control.Apply.Reverse
 where
 
-infixl 0 &
-infixl 0 &!
+infixl 1 &
+infixl 1 &!
 
 (&)  = flip ($)
 (&!) = flip ($!)

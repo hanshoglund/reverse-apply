@@ -1,6 +1,6 @@
 
 name:               reverse-apply
-version:            1.0.3
+version:            2.0
 cabal-version:      >= 1.2
 author:             Hans Hoglund
 maintainer:         Hans Hoglund
